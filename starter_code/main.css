@@ -1,0 +1,130 @@
+body{
+margin: 0;
+font-family: 'Source Sans Pro', sans-serif;
+/* position: relative; */
+}
+
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid yellow;
+}
+header h1{
+    margin-left: 40px;
+    color: yellow;
+
+}
+
+header nav{
+    margin-right: 40px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+header nav a{
+    text-decoration:none;
+    color: white;
+}
+header nav a:hover{
+    text-decoration:none;
+    color: gray;
+}
+.top-con{
+    background-color: #C6C6C6;
+    display: flex;
+    justify-content: center;
+   height: 80px;
+   align-items: center;
+   
+}
+.top-con h2{
+    margin-top: 15px;
+
+}
+
+.mid-con{
+    background: url(images/coworking.jpg) no-repeat center top rgb(134, 141, 157);
+ height: 500px;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+ background-size: cover;
+ /* z-index: -1; */
+/* position: absolute;  */
+}
+.mid-box{
+  margin-right: 25px;
+    background-color: rgba(204, 204, 204, 0.7);
+    width: 410px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: baseline;
+    border: 1px solid gray;
+    
+}
+.mid-box button{
+    align-self: center;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 260px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    background-color: yellow;
+}
+.mid-box h2{
+margin-left: 40px;
+margin-bottom: 0px;
+}
+.mid-box p{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+ }
+
+ .bottom-con{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+      justify-content: space-evenly;
+      align-self: center;
+ }
+ .box1{
+    width: 300px;
+ }
+ .box2{
+    width: 300px;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    padding-right: 90px;
+    padding-left: 90px;
+
+ }
+ .box3{
+    width: 300px;
+   
+ }
+ button{
+    align-self: center;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 260px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    background-color:lightgray;
+ }
+footer{
+    background-color: black;
+}
+footer p{
+    color: white;
+    padding-top: 30px;
+    height: 40px;
+    margin: 0 40px;
+}
