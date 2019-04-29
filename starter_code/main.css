@@ -34,7 +34,7 @@ section{
   height: 100%;
   padding-top: 1px;
 }
-p{
+section p{
     font-family: 'Merriweather', serif;
     text-align: center;
 }
@@ -68,10 +68,29 @@ p{
     background-color: yellow;
     text-align: center;
     text-decoration: none;
+    color: black;
 }
-.special p{
+p{
     text-align: left;
 }
 
 /********* Fourth Section *********/
 
+.container {
+    display:flex;
+    flex-direction: row;
+    margin: 0 20px;
+}
+
+.bttn{
+    font-family: 'Merriweather', serif;
+    background-color: #999;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px 30px;
+    color: black;
+}
+hr{
+    color: #999;
+    margin-right: 15px; 
+}
