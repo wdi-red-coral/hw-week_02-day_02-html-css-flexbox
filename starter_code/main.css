@@ -1,0 +1,61 @@
+body{
+    margin:0;
+    
+}
+
+.frist-header{
+    background: black;
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    border-bottom:10px solid yellow;
+}
+
+.frist-header h1{
+    color:yellow;
+}
+
+.frist-header nav a{
+    color:white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.bigger-text{
+    font-size: 20px;
+    font-weight: bold;
+}
+.smaller-text{
+    color:white;
+    text-decoration: none;
+    
+}
+
+.second-header {
+    background: #D1C7C7;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+.second-header h2{
+    text-align: center;
+    
+}
+section{
+        display: flex;
+  
+    }
+footer{ 
+        background: black;
+        color: white;
+    height:50px ;
+    margin: 0;
+    padding: 5px;
+    margin-top: 0;
+     
+    }
+    .button{
+        
+    }
+
