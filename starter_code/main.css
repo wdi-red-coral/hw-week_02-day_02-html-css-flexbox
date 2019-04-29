@@ -1,7 +1,6 @@
 body{
 margin: 0;
 font-family: 'Source Sans Pro', sans-serif;
-/* position: relative; */
 }
 
 
@@ -55,8 +54,7 @@ header nav a:hover{
  align-items: center;
  justify-content: flex-end;
  background-size: cover;
- /* z-index: -1; */
-/* position: absolute;  */
+
 }
 .mid-box{
   margin-right: 25px;
