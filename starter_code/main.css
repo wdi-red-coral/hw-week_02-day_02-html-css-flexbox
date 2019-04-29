@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+body{
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 20px;
+     line-height: 1.5;
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color:black;
+    color: white; 
+    border-bottom:4px solid yellow
+}
+
+header h1{
+    color:yellow;
+    font-family: 'Merriweather', 'serif';
+
+}
+.navBar{
+    display: flex;
+    flex-grow:0.8;
+    align-items: baseline;
+     
+    /* justify-content: space-around; */
+}
+
+.first-div{
+    display: flex;
+    justify-content: center;
+    background-color:  darkgray;
+    font-family: 'Merriweather', 'serif';
+    
+    
+}
+.container{
+    background: url(images/coworking.jpg) ;
+    background-size: cover;
+    padding: 100px;
+    background-position: center;
+     height: 300px;
+    /* width: 100%;  */
+   display:flex;
+    flex-direction:row; 
+   
+   justify-content: flex-end;
+   /* position: relative; */
+   
+   
+  
+}
+
+#are{
+    text-decoration: underline yellow;
+
+}
+#taste{
+    text-decoration: line-through;
+    color: lightgray;
+
+}
+.box{
+    /* position: absolute;
+    right: 0; */
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    
+   /* align-self: flex-end; */ 
+}
+.button{
+    background-color:gold; 
+    border: 2px solid gold;
+    border-radius: 5px;
+    text-align: center;
+    /* display: flex;
+   align-self: center; */
+   
+    font-weight: bold;
+    margin-left: 30%;
+    margin-top: 25px;
+    width: 200px;
+    font-family: 'Merriweather', 'serif';
+
+}
+.other-button{
+    background-color:lightgrey; 
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-top: 25px;
+    
+    
+}
+.lst-div{
+display: flex;
+ justify-content: space-around;
+/* flex-wrap: wrap-reverse; */
+flex-direction: row;
+
+}
+.lst-div p{
+    margin-left:20px; 
+}
+.vl {
+    border-right: 1px solid lightgrey;
+  height: 100px;
+  }
+  .end{
+      /* position: absolute;
+      bottom: 0; */
+background-color: black;
+color:white;
+  }
