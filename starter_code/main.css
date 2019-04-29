@@ -1,0 +1,62 @@
+body{
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    border-bottom: 6px solid yellow; 
+}
+header h1{
+    color: yellow;
+}
+.nav{
+   justify-self: flex-end;
+}
+.quote{
+    display: flex;
+    background-color: #999;
+    justify-content: center;
+}
+main{
+    display: flex;
+    background: url(images/coworking.jpg) no-repeat center top;
+    background-size: cover;
+    justify-content: flex-end;
+
+}
+main div{
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,255,255, .6);
+    width: 200px;
+}
+.botton1{
+    text-align: center;
+    justify-self: center;
+    text-decoration: none;
+    border: 10px solid yellow;
+    background-color: yellow;
+    border-radius:5px;
+    color: black;
+}
+section{
+    display: flex;
+
+}
+.botton2{
+    text-align: center;
+    justify-self:center;
+    text-decoration: none;
+    border: 10px solid #C6C6C6;
+    background-color: #C6C6C6;
+    border-radius:5px;
+    color: black;
+}
+footer{
+    background: black;
+    color: white;
+}
