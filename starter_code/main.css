@@ -1,0 +1,119 @@
+header {
+    background: url("images/coworking.jpg") no-repeat;
+    width: 98vw;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+}
+
+#header-container {
+    border-bottom: gold solid  3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    color: gold;
+}
+
+
+
+#header-container-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    
+}
+
+#header-container-container h3, #header-container-container a {
+    margin: 10px;
+}
+
+#header-container-container a {
+    text-decoration: none;
+    color: white;
+}
+
+#header-container h1{
+    margin-left:  10px
+}
+
+
+#header-container2 {
+   display: flex;
+    background: lightslategray;
+    height: 10vh;
+    width: 97wh;
+    justify-content: center;
+    align-items: center
+   
+}
+
+.one {
+    text-decoration: line-through;
+    color: darkgray
+}
+
+.two {
+    border-bottom: 3px gold solid
+}
+
+#header-container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, .5);
+    width: 30vw;
+    height: auto;
+    margin: 100px 0 0 0;
+}
+
+
+#header-container3 button {
+    
+    background: yellow;
+    border: hidden;
+    width: 80%;
+    margin-bottom: 20px;
+    
+}
+
+#hw {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 97vw;
+    height: 40vh;
+}
+
+aside {
+    margin: 0 100px 0 100px;
+
+}
+
+aside button {
+    border: ridge;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+footer {
+    display: flex;
+    background: black;
+    width: 97vw;
+    height: 10vh;
+    color: white;
+   
+
+}
+
+footer p {
+    text-align: center;
+    margin-left: 10px;
+}
