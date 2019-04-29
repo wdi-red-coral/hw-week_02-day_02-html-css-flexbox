@@ -1,0 +1,77 @@
+body{
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 20px;
+line-height: 1.5;
+}
+/********* First/Header Section *********/
+header {
+    background-color: black;
+    border-bottom: 4px solid yellow;    
+    display:flex;
+    justify-content: space-between;
+}
+h1{
+    color: yellow;
+    font-family: 'Merriweather', serif;
+    padding-left: 20px;
+}
+nav {
+display: flex;
+align-items: center;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+nav a strong{
+    font-family: 'Oswald', sans-serif;
+}
+
+/********* Second Section *********/
+section{
+  background-color: #C6C6C6; 
+  height: 100%;
+  padding-top: 1px;
+}
+p{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+.sp{
+    color: #999;
+    text-decoration: line-through;
+}
+
+.spa{
+    text-decoration: underline yellow;
+}
+
+/********* Third Section *********/
+.parent{
+    background: url(images/coworking.jpg);
+    display: flex;
+    justify-content: flex-end;
+}
+.special{
+    border: 1px solid #999;
+    background-color: rgb(255, 255, 255, 0.5);
+    width: 20%;
+    margin: 50px 20px 50px 0;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.button{
+    font-family: 'Merriweather', serif;
+    background-color: yellow;
+    text-align: center;
+    text-decoration: none;
+}
+.special p{
+    text-align: left;
+}
+
+/********* Fourth Section *********/
+
