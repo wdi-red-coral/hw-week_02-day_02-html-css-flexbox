@@ -1,0 +1,142 @@
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 2px;
+    
+}
+main{
+    font-family: 'Source Sans Pro', sans-serif;
+     font-size: 20px;
+     line-height: 1.5;
+     display: flex;
+     flex-direction: column;
+
+     
+}
+header{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid yellow;
+
+}
+.hdiv1{
+    flex-grow: 1;
+    color: yellow;
+}
+.hdiv2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: space-between;
+    flex-grow: 2;
+    color: white;
+
+}
+.hdiv2 strong{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Oswald', sans-serif;
+}
+.mdiv{
+   background-color: #999;
+    height: 100px;
+    margin-bottom: 0px;
+}
+.mdiv2{
+    background-image: url('imagese/coworking.jpj');
+    height: 400px;
+}
+.mdiv1{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    background-color: #999;
+    color:black;
+    height: 72px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 27px; 
+    font-weight: bold;
+    
+}
+.span1{
+    font-style: italic;
+    color: gray;
+    text-decoration: line-through;
+}
+.span2{
+    
+}
+.mdiv2{
+    background-image: url("/Users/samahab/Desktop/wdi/homeworks,/hw-week_02-day_02-html-css-flexbox/starter_code/images/coworking.jpg");
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: flex-end;
+}
+.mdiv21{
+    background-color: #f1f1f1b7;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    font-size: 15px;
+    height: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+}
+.mdi211{
+    background-color:yellow;
+    width: 237px;
+    margin: 10px;
+    text-align: center;
+    font-weight: 600;
+    align-items: center;
+    flex-grow: 1;
+}
+.p1{
+    flex-grow: 3;
+}
+.md21 h1{
+    flex-grow: 1;
+
+}
+.mdiv3{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.mdiv31{
+    background-color: #f1f1f1;
+    width: 434px;
+    margin: 10px;
+ display: flex;
+ flex-direction: column; 
+    font-size: 20pxpx;
+    align-items: center;
+    padding: 23px;
+
+}
+.mdiv311{
+    background-color:rgb(143, 143, 139);
+    width: 237px;
+    margin: 10px;
+    text-align: center;
+    font-weight: 600;
+    
+    flex-grow: 1;
+}
+.mdiv31 h3 p{
+    text-align: left;
+}
+footer{
+    background-color: black;
+    color: #f1f1f1;
+}
