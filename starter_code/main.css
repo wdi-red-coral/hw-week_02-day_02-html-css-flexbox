@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.navRow{
+    display: flex;
+}
+header{
+    display: flex;
+    width: 100%;
+
+    justify-content: space-around;
+    background-color: black;
+    color: yellow;
+    padding-top: 30px;
+    vertical-align: middle;
+    border-bottom: yellow solid 2px;
+    margin-bottom: 0px; 
+}
+
+.boxsrow{
+    display: flex;
+    border-right: 
+}
+.navRow #navlog{
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    background-color: #C6C6C6;
+    
+}
+.qoute{
+    text-align: center;
+    background-color: grey;
+    margin-top: 0px;
+}
+.bgim{
+display: flex;
+background-image: url('images/coworking.jpg');
+padding: 210px;
+}
+.copyrow{
+    background-color: black;
+    color: white;
+    font-size: 13px;
+}
