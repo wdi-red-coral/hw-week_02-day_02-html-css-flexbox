@@ -1,104 +1,145 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    -moz-box-sizing: border-box; /* Firexfox */
-    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-    box-sizing: border-box; /* IE */
-}
-
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    background-image: url(images/coworking.jpg);
-    -webkit-background-size : cover;
-    background-position: center ;
-    background-size: cover;
-    height: 100vh;
+    font-size: 20px;
+    line-height: 1.5;
     margin: 0px;
-}
-
-nav {
-    background-color: black;
-    float:left;
-    margin: auto;
-    letter-spacing: 0px;
-    display: block;
-    border-bottom : solid yellow;
-    position: relative;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.navbar {
-    background-color: black;
-
-}
-
-.navbar .divOne{
-    float :left;
-    width: 80%;
-    margin-top: 15px;
-    color : yellow;
-}
-
-.navbar .links {
-    float : right;
-    width: 60%;
-    margin-top: 15px;
-}
-
-.navbar .links li {
-    display: inline-block;
-    padding: 10px 15px;
-    margin-top: 20px;
-}
-
-li a {
-    text-decoration: none;
-    color : white;
-}
-
-a:hover{
-    background-color:#aaaaaa;
 }
 
 header {
-    background-color: #C6C6C6;
-    color : black;
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
-   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+header h1 {
+    color: yellow;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-.container {
-    width: 1200px;
-    margin: auto;
+.links {
+    display: flex;
+    list-style: none;
 }
 
-.button {
+header a {
+    color: white;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+header strong a {
+    text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
 }
 
-.divTow {
-    display: flex;
-    justify-content: space-between;
+.divOne {
+    padding-bottom: 0.03%;
+    background: #C6C6C6;
+    border-top: 5px solid yellow;
+    text-align: center;
+   
+
 }
-    #footer {
-        position: fixed;
-        left: 0;
-        bottom: 0px;
-        width: 100%;
-        height: 25px;;
-        background-color: black;
-        font-size: 16px;
-        color: white;
-        text-align: left;
-        padding: 25px 30px 30px;
-        margin-top: auto;
-     }
+.divOne p {
+    margin: 0px;
+    text-align: center;
+    padding: 1% 0;
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+}
 
+.divOne p span:first-child {
+    text-decoration: line-through;
+    color: #999;
+}
 
+.divOne p span:last-child {
+   border-bottom: 5px solid yellow;
+}
+
+.sectionOne {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url("images/coworking.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 3%;
+}
+
+.sectionOne div {
+    width: 33%;
+    background: rgba(255,255,255,.8);
+    padding: 4%;
+    box-shadow: 0 0 5px rgba(0,0,0,.75);
+}
+
+.sectionOne h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.sectionOne p {
+    font-size: 1.25em;
+    margin: 0px;
+}
+
+.button {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    padding: 16px 12px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+    background: yellow;
+    color: black;
+    font-size: 1.25em;
+}
+
+.sectionOne .button {
+    margin-top: 30px;
+}
+.sectionTwo {
+    display: flex;
+    padding: 2% 0;
+}
+
+.sectionTwo div {
+    padding: 2% 3%;
+}
+
+.sectionTwo div:nth-child(2) {
+    border-left: 2px solid #C6C6C6;
+    border-right: 2px solid #C6C6C6;
+}
+
+.sectionTwo h3 {
+    margin: 0px;
+	font-family: 'Merriweather', serif;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.sectionTwo p {
+    font-size: 1.25em;
+}
+.sectionTwo .button {
+    background: #C6C6C6;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 0.1%;
+}
