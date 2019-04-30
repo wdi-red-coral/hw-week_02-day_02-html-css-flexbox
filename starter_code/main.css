@@ -1,0 +1,148 @@
+header{
+    background-color: black;
+    border-bottom:5px solid yellow;
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+
+
+}
+
+header h1{
+    font-weight: bolder;
+    color: yellow;
+    font-family: 'Merriweather', serif;
+    margin: 0px;
+   
+}
+
+
+header > a{
+    
+    color: white;
+    font-family: 'Merriweather', serif;
+    display: flex;
+     
+}
+
+
+.tagline{
+    background-color: #C6C6C6;
+    padding: 3px;
+    color:  black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0px;
+    font-style: italic;
+
+
+
+}
+span{
+    text-decoration-line: line-through;
+    color: gray; 
+
+}
+.span{
+    text-decoration: underline yellow; 
+    color: black;
+
+}
+
+
+.banner{
+
+    display: flex;
+    justify-content: flex-end;
+    background-image: url("coworking.jpg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+
+}
+
+.banner div {
+    background: rgba(225,225,225,0.6);
+    width: 33%;
+    box-shadow: 0 0 5px black;
+    margin: 4%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+
+
+.banner div {
+    width: 33%;
+    background: rgba(255,255,255,.8);
+    padding: 4%;
+    box-shadow: 0 0 5px rgba(0,0,0,.75);
+}
+
+.banner h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.banner p {
+    font-size: 1.25em;
+    margin: 0px;
+}
+
+.button {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    padding: 16px 12px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+    background: yellow;
+    color: black;
+    font-size: 1.25em;
+}
+
+.banner .button {
+    margin-top: 30px;
+}
+.services {
+    display: flex;
+    padding: 2% 0;
+}
+
+.services div {
+    padding: 2% 3%;
+}
+
+.services div:nth-child(2) {
+    border-left: 2px solid #C6C6C6;
+    border-right: 2px solid #C6C6C6;
+}
+
+.services h3 {
+    margin: 0px;
+	font-family: 'Merriweather', serif;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.services p {
+    font-size: 1.25em;
+}
+.services .button {
+    background: #C6C6C6;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1%;
+}
