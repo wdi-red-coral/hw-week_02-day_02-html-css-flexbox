@@ -1,0 +1,142 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-bottom: 5px solid yellow;
+}
+header h1 {
+    color: yellow;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+header a {
+    color: white;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+header strong a {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+.tagline {
+    background: #C6C6C6;
+}
+.tagline p {
+    margin: 0px;
+    text-align: center;
+    padding: 1% 0;
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.tagline p span:first-child {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.tagline p span:last-child {
+   border-bottom: 5px solid yellow;
+   /* text-decoration: underline yellow; */
+}
+
+.banner {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url("images/coworking.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 3%;
+}
+
+.banner div {
+    width: 33%;
+    background: rgba(255,255,255,.8);
+    padding: 4%;
+    box-shadow: 0 0 5px rgba(0,0,0,.75);
+}
+
+.banner h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.banner p {
+    font-size: 1.25em;
+    margin: 0px;
+}
+
+.button {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    padding: 16px 12px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+    background: yellow;
+    color: black;
+    font-size: 1.25em;
+}
+
+.banner .button {
+    margin-top: 30px;
+}
+.services {
+    display: flex;
+    padding: 2% 0;
+}
+
+.services div {
+    padding: 2% 3%;
+}
+
+.services div:nth-child(2) {
+    border-left: 2px solid #C6C6C6;
+    border-right: 2px solid #C6C6C6;
+}
+
+.services h3 {
+    margin: 0px;
+	font-family: 'Merriweather', serif;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.services p {
+    font-size: 1.25em;
+}
+.services .button {
+    background: #C6C6C6;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1%;
+}
