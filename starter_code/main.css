@@ -23,7 +23,10 @@ float: right;
 
 
 }
-
+span{
+    text-decoration: line-through;
+    color: #999;
+}
 
 h1{
     float: left;
@@ -37,21 +40,50 @@ hr{
     color: yellow
     
 }
-span{
-    color: yellow;
-}
+
 h3{
     position: absolute;
     background-color: lightgray;
+    text-align: center; 
     width: 100%;
     margin: 5px;
     margin-top: yellow
     float:center;
     font-style: italic;
-    color: black
+    color: black 
     
-    
-    
+}
+
+
+.Meet div {
+    width: 33%;
+    background: rgba(255,255,255,.8);
+    padding: 4%;
+    box-shadow: 0 0 5px rgba(0,0,0,.75);
+}
+.Meet {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url("images/coworking.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 3%;
+}
+
+.Meet h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.Meet p {
+    font-size: 1.25em;
+    margin: 0px;
+}
+
+.Meet .button {
+    margin-top: 30px;
 }
 
 .button {
@@ -64,11 +96,13 @@ h3{
     display: inline-block;
     font-size: 20px;
 }
-.part{
-    position:absolute;
-    flex-direction: column;
-    justify-content:space-between;
+.part {
+    display: flex;
+    padding: 2% 0;
+}
 
+.part div {
+    padding: 2% 3%;
 }
 footer{
     position: absolute;
